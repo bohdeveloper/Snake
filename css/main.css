@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+  text-align: center;
+  margin: 64px 0 0 0;
+}
+#table {
+  display: flex;
+  justify-content: center;
+}
+#init {
+  width: 350px;
+  height: 350px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIwYbCJUrwX37AMJ_UBaPM5OK5vxjecYRXw&usqp=CAU);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0px 0px;
+  border: solid 5px green;
+  font-family: "Press Start 2P", cursive;
+}
+#init h1 {
+  color: rgb(52, 52, 52);
+  margin-top: 17rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#init h1:hover {
+  color: black;
+  transition: 0.3s;
+}
+canvas {
+  border: solid 5px green;
+  background-color: greenyellow;
+}
+#baby {
+  color: greenyellow;
+  font-size: 1rem;
+  font-family: "Press Start 2P", cursive;
+}
+#scoreTarget {
+  color: greenyellow;
+  font-family: "Press Start 2P", cursive;
+}
+#controller_area {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+button {
+  margin: 0;
+  padding: 0;
+}
+#controller {
+  width: 50%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+#control_up {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+#W {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color: yellowgreen;
+  background-color: transparent;
+  border: none;
+}
+#control_middle {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+#A {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color: yellowgreen;
+  background-color: transparent;
+  border: none;
+}
+#D {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color: yellowgreen;
+  background-color: transparent;
+  border: none;
+}
+#control_down {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+#S {
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  color: yellowgreen;
+  background-color: transparent;
+  border: none;
+}

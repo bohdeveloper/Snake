@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Snake</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <div id="table">
+
+        <div id="init">
+            <h1 onclick="start()">NEW GAME</h1>
+        </div>
+
+        <canvas id="game" width="350" height="350"></canvas>
+
+    </div>
+
+    <h2 id="baby">COME ALGO PARA RECUPERARTE</h2>
+    <h2 id="scoreTarget"><span>0</span></h2>
+
+    <div id="controller_area">
+        <div id="controller">
+            <div id="control_up">
+                <button id="W"><i class="fas fa-chevron-up"></i></button>
+
+            </div>
+            <div id="control_middle">
+                <button id="A"><i class="fas fa-chevron-left"></i></button>
+                <button id="D"><i class="fas fa-chevron-right"></i></button>
+
+            </div>
+            <div id="control_down">
+                <button id="S"><i class="fas fa-chevron-down"></i></button>
+
+            </div>
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript" src="js/home.js"></script>
+</body>
+
+</html>
