@@ -191,7 +191,7 @@ function draw() {
     }
 
     const { x, y } = state.prey; //Dibujamos a la presa
-    drawPixel('brown', x, y);
+    drawPixel('saddlebrown', x, y);
 }
 
 

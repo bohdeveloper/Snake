@@ -11,13 +11,14 @@ body {
   width: 350px;
   height: 350px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUIwYbCJUrwX37AMJ_UBaPM5OK5vxjecYRXw&usqp=CAU);
+  filter: hue-rotate(110deg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: 0px 0px;
-  border: solid 5px green;
+  border: solid 5px rgb(38, 96, 4);
   font-family: "Press Start 2P", cursive;
 }
 #init h1 {
@@ -31,16 +32,16 @@ body {
   transition: 0.3s;
 }
 canvas {
-  border: solid 5px green;
-  background-color: greenyellow;
+  border: solid 5px rgb(0, 85, 128);
+  background-color: #0cabb1;
 }
 #baby {
-  color: greenyellow;
+  color: #0cabb1;
   font-size: 1rem;
   font-family: "Press Start 2P", cursive;
 }
 #scoreTarget {
-  color: greenyellow;
+  color: #0cabb1;
   font-family: "Press Start 2P", cursive;
 }
 #controller_area {
@@ -68,7 +69,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.5rem;
-  color: yellowgreen;
+  color: #0cabb1;
   background-color: transparent;
   border: none;
 }
@@ -83,7 +84,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.5rem;
-  color: yellowgreen;
+  color: #0cabb1;
   background-color: transparent;
   border: none;
 }
@@ -91,7 +92,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.5rem;
-  color: yellowgreen;
+  color: #0cabb1;
   background-color: transparent;
   border: none;
 }
@@ -106,7 +107,7 @@ button {
   width: 2rem;
   height: 2rem;
   font-size: 1.5rem;
-  color: yellowgreen;
+  color: #0cabb1;
   background-color: transparent;
   border: none;
 }
